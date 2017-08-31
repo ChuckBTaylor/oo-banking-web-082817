@@ -79,6 +79,7 @@ describe 'Transfer' do
         expect(avi.balance).to eq(1000)
         expect(amanda.balance).to eq(1000)
         expect(transfer.status).to eq("reversed")
+        #binding.pry
       end
 
       it "it can only reverse executed transfers" do
